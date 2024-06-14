@@ -1,0 +1,3 @@
+#!/bin/bash -ex
+tinygo test ./...
+extism call count-vowels.wasm count_vowels --wasi --log-level=trace --input 'Once upon a time'
